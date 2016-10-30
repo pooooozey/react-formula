@@ -1,0 +1,273 @@
+a:active {outline: none;star:expression(this.onFocus=this.blur());}
+a,button,input,span{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+*{margin:0;padding:0;list-style:none;outline:none;word-wrap:break-word;}
+img{border:none}
+table{table-layout:fixed; border-collapse:collapse}
+a{ text-decoration:none;}
+input{ border-radius:0; background:none;}
+body{ background:#f1f1f1; font-size:12px; font-family:helvetica,Arial,"微软雅黑","宋体"; -webkit-text-size-adjust:none;}
+.fl{ float:left;}
+.fr{ float:right;}
+.fb{ font-weight:bold;}
+.tc{ text-align:center;}
+.hide{ display:none;}
+
+
+#head{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	background:#619cec;
+	color:#fff;
+	text-align:center;
+	font-size:18px;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:100;
+}
+#head .edit{
+	position:absolute;
+	right:50px;
+	top:0;
+	font-size:14px;
+	color:#fff;
+}
+#head .add{
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:14px;
+	color:#fff;
+}
+#head .back{
+	position:absolute;
+	left:10px;
+	top:0;
+	font-size:14px;
+	color:#fff;
+}
+#foot{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	position:fixed;
+	left:0;
+	bottom:0;
+	z-index:100;
+	background:#fff;
+    display:-moz-box;
+    display:-webkit-box;
+    display:box;
+    text-align:center;
+    font-size:14px;
+}
+#foot .foot-btn{
+	color:#666;
+	display:block;
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    box-flex:1;
+}
+#foot .active{
+	background:#619cec;
+	color:#fff;
+}
+
+#main{
+	padding:55px 0 50px 0;
+}
+#main dl{
+	margin:0 0 5px 0;
+	overflow:hidden;
+}
+#main dt{
+	font-size:16px;
+	height:40px;
+	line-height:40px;
+	background:#fff;
+	margin:0 0 5px 0;
+	padding:0 0 0 10px;
+}
+.news_list li{
+	width:100%;
+	overflow:hidden;
+	background:#fff;
+	padding:10px 0;
+	margin:0 0 5px 0;
+}
+.news_list .img{
+	width:40%;
+	padding:25% 0 0 0;
+	position:relative;
+	overflow:hidden;
+	margin:0 10px;
+	float:left;
+}
+.news_list .img img{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.news_list h3{
+	color:#666;
+	margin:10px 0 0 0;
+	font-size:14px;
+	line-height:24px;
+}
+.news_list .caption{
+	font-size:13px;
+	line-height:20px;
+	color:#666;
+}
+.formula_list li{
+	width:50%;
+	background:#fff;
+	overflow:hidden;
+	margin:0 0 5px 0;
+	float:left;
+}
+.formula_list .img{
+	margin:10px;
+	padding:55% 0 0 0;
+	position:relative;
+}
+.formula_list .img img{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.formula_list h3{
+	text-align:center;
+	margin:10px 0 10px 10px;
+	font-size:14px;
+	line-height:24px;
+	height:24px;
+	overflow:hidden;
+	color:#333;
+}
+.detail{
+	position:absolute;
+	left:0;
+	top:50px;
+	right:0;
+	bottom:50px;
+	background:#fff;
+	overflow-y:auto;
+}
+.detail .detail_box{
+	margin:0 10px;
+}
+.detail h2{
+	font-size:18px;
+	text-align:center;
+	color:#666;
+	font-weight:bold;
+	margin:20px 0 10px 0;
+}
+.detail img{
+	max-width:100%;
+}
+.detail .load{
+	margin:40px 0 20px 0;
+}
+.detail .cont{
+	line-height:24px;
+	color:#666;
+	font-size:14px;
+}
+.add_box{
+	position:absolute;
+	left:0;
+	top:50px;
+	right:0;
+	bottom:50px;
+	background:#fff;
+	overflow-y:auto;
+}
+.content{
+}
+.content .row{
+	line-height:34px;
+	padding:15px 0;
+	font-size:14px;
+	border-bottom:1px solid #eee;
+	overflow:hidden;
+}
+.content .title{
+	width:70px;
+	float:left;
+	font-weight:bold;
+	text-align:right;
+}
+.content .cont{
+	margin:0 10px 0 90px;
+	line-height:34px;
+}
+.content .tip{
+	color:#666;
+	text-align:center;
+}
+.content .ipt{
+	width:80%;
+	height:36px;
+	float:left;
+	margin:0 5px 0 0;
+	text-indent:5px;
+	border:1px solid #666;
+}
+.content .type{
+	width:38%;
+	margin:0 2%;
+	float:left;
+}
+.content .type .ipt-name{
+	width:100%;
+}
+.content .del{
+	width:20px;
+	text-align:center;
+	display:inline-block;
+	float:left;
+	font-size:20px;
+	margin:0 0 0 5px;
+	color:#ff0000;
+}
+.content .add-btn{
+	width:100%;
+	font-size:16px;
+	line-height:50px;
+	display:inline-block;
+	text-align:center;
+	color:#619cec;
+	border-bottom:1px solid #eee;
+}
+.content .sub-btn{
+	text-align:center;
+	margin:30px 0 0 0;
+}
+.content .sub-btn a{
+	width:120px;
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+	display:inline-block;
+	color:#fff;
+	background:#619cec;
+}
+#ingredients_list{
+	line-height:30px;
+}
+#ingredients_list li{
+	padding:0 10px;
+	border-bottom:1px solid #eee;
+	overflow:hidden;
+}
+#ingredients_list li:nth-child(even){
+	background:#eee;
+}
+

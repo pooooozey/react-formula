@@ -1,0 +1,34 @@
+{
+  "name": "react-es6",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.13.0",
+    "material-ui": "^0.15.4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1",
+    "react-tap-event-plugin": "^1.0.0",
+    "webpack": "^2.1.0-beta.25"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack",
+    "build-dev": "webpack -w -d"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-1"
+    ],
+    "plugins": []
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
